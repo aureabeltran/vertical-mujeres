@@ -15,3 +15,13 @@
 		background-color: darken($color-boton, 15%);
 	}
 }
+
+@mixin enlaces($color , $tx-dec){
+	color:$color;
+	text-decoration: $tx-dec;
+}
+
+@mixin listas-footer($list-sty, $mg-bttm){
+	list-style: $list-sty;
+	margin-bottom: $mg-bttm;
+}
