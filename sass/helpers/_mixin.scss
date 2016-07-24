@@ -1,17 +1,38 @@
 //**Esto es para botones simples con hover opaco**//
 
-@mixin botones-simples($ancho, $color-boton, $margin, $border-r){
+@mixin botones-simples($ancho, $color-boton, $margin, $padding, $letra, $border-r){
 	width: $ancho;
 	background-color: $color-boton;
 	margin: $margin;
 	color: white;
-	padding: 5px;
-	font-weight: bold;
-	font-size: 18px;
+	padding: $padding;
+	font-size: $letra;
 	border: $color-boton;
 	border-radius: $border-r;
 	&:hover{
 		font-weight: bold;
 		background-color: darken($color-boton, 15%);
 	}
+}
+
+@mixin enlaces($color , $tx-dec){
+	color:$color;
+	text-decoration: $tx-dec;
+}
+
+@mixin listas-footer($list-sty, $mg-bttm){
+	list-style: $list-sty;
+	margin-bottom: $mg-bttm;
+}
+@mixin descripcion-anuncio($letra, $background){
+	position: absolute;
+    left: 50px;
+    right: 50px;
+    bottom: 30px;
+    padding: 8px;
+    border-radius: 3px;
+    color: #000;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 28px;
 }

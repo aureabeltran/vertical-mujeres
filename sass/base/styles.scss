@@ -1,0 +1,111 @@
+.bg-collage{
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	height: 300px;
+	max-width: 100%;
+	.enlace{
+		height: 300px;
+		transition: 2s;
+		h4{
+			font-size:40px;
+			opacity: 0.0;
+			-webkit-transition: all 2s ease-in-out;
+			-moz-transition: all 2s ease-in-out;
+			-ms-transition: all 2s ease-in-out;
+			-o-transition: all 2s ease-in-out;
+			transition: all 2s ease-in-out;
+			color: darken($turquesa, 30%);
+			font-weight: bold;
+			text-align: right;
+		}
+		&:hover{
+			background-color: rgba(255, 0, 0, 0.2);
+			 
+			h4{
+				font-size:40px;
+				opacity: 0.9;
+			}
+		}
+	}
+}
+#videos{
+	padding: 3%;
+	.btn-style{
+		@include botones-simples(100%, $pink, 0px, 5px, 20px, 5px);
+		&:focus{
+			background-color: darken($pink, 20%);
+		}
+	}
+	.categorias{
+		.link{
+			text-align: center;
+			margin: 10px 0;
+			padding: 10px;
+			max-height: 500px;
+			width: 100%;
+			background-color: lighten($pink, 30%);
+			color: black;
+			iframe{
+				margin: 10px;
+				width: 80%;
+				height: 250px;
+			}
+			p{
+				font-size: 17px;
+			}
+			.redes{
+				display: inline-flex;
+				a{
+					.facebook{
+						margin: 5px;
+						height: 50px;
+						width: 50px;
+						background-color:lighten($main-gray, 10%);
+						transition: 0.5;
+						border-radius: 25px 25px 25px 25px;
+						-moz-border-radius: 25px 25px 25px 25px;
+						-webkit-border-radius: 25px 25px 25px 25px;
+						border: 0px solid #000000;
+						&:hover{
+							background-color: $facebook;
+						}
+						i{
+							padding: 7px 14px;;
+							color: white;
+							font-size:35px;
+						}
+					}
+					.twitter{
+						margin: 5px;
+						height: 50px;
+						width: 50px;
+						background-color:lighten($main-gray, 10%);
+						transition: 0.5;
+						border-radius: 25px 25px 25px 25px;
+						-moz-border-radius: 25px 25px 25px 25px;
+						-webkit-border-radius: 25px 25px 25px 25px;
+						border: 0px solid #000000;
+						&:hover{
+							background-color: $twitter;
+						}
+						i{
+							padding: 7px 10px;;
+							color: white;
+							font-size:35px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.noticias{
+		background-color: lighten($main-gray,10%);
+		img{
+			height: 100px;
+			width: 100%;
+		}
+		.btn-style{
+			@include botones-simples(80%, $pink, 0px, 5px, 20px, 5px);
+		}
+	}
+}

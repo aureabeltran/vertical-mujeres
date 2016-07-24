@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta property="fb:app_id" content="{YOUR_APP_ID}" />
 	   <meta charset="UTF-8">
 	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	   <title>Vertical Mujeres</title>
@@ -10,8 +9,384 @@
 	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	   <link rel="stylesheet" href="css/main.css">
 	</head>
-		
-	<body>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		      	</button>
+		     	<!--Aqui deberia ir el logo-->
+		      <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Belleza</a></li>
+		        <li><a href="#">Panoramas</a></li>
+		        <li><a href="#">Salud</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<!--Este es el nav aside de redes-->
+		<section id="contenedor-redes">
+			<nav class="hidden-sm hidden-xs" id="sidebar">
+				<ul>
+					<li><a href="https://www.facebook.com/"><div class="facebook"><i class="fa fa-facebook" aria-hidden="true"><h6 class="hover">Facebook</h6></i></div></a></li>
+					<li><a href="https://twitter.com/login?lang=es"><div class=" twitter"><i class="fa fa-twitter" aria-hidden="true"><h6>Twitter</h6></i></div></a></li>
+					<li><a href="https://www.instagram.com/"><div class="instagram"><i class="fa fa-instagram" aria-hidden="true"><h6>Instagram</h6></i></div></a></li>
+				</ul>
+			</nav>
+		</section>
+		<section class="bg-collage">
+			<div class="container-fluid">
+				<div class="row">
+					<a href="belleza.html"><div class="col-md-4 col-sm-4 enlace">
+						<h4>Belleza</h4>
+					</div></a>
+					<a href="tiempo-libre.html"><div class="col-md-4 col-sm-4 enlace">
+						<h4>Panoramas</h4>
+					</div></a>
+					<a href="salud.html"><div class="col-md-4 col-sm-4 enlace">
+						<h4>Salud</h4>
+					</div></a>
+				</div>
+			</div>
+		</section>
+		<section id="videos">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-12">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<button class="btn-style" id="btn-popular">Lo mas Visto</button>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<button class="btn-style" id="btn-nuevo">Lo mas Nuevo</button>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<div class="categorias">
+									<div class="row">
+									<!--Aqui van los videos mas vistos-->
+										<div class="col-md-12 col-sm-12">
+											<div class="link  popular">
+												<h3>Tiempo Libre</h3>
+												<iframe src="https://www.youtube.com/embed/3TQ1JyTGGP0" frameborder="0" allowfullscreen></iframe>
+												<!--Comentario sobre el video-->
+												<p>¿Amante del trekking?
+												Entonces amaras este video hecho en las torres del paine</p>
+												<div class="redes">
+													<a href="https://www.facebook.com/"><div class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>
+													</div></a>
+													<a href="https://twitter.com/?lang=es"><div class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i>
+													</div></a>
+												</div>
+											</div>
+										</div>
+										<!--Aqui van los videos nuevos-->
+										<div class="col-md-12 col-sm-12">
+											<div class="link nuevo">
+												<h3>Tiempo Libre</h3>
+												<iframe src="https://www.youtube.com/embed/nq-6S1GphDs" frameborder="0" allowfullscreen></iframe>
+												<p>Finalmente llego el trailer de la 7ma temporada de The Walking Dead</p>
+												<div class="redes">
+													<a href="https://www.facebook.com/"><div class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>
+													</div></a>
+													<a href="https://twitter.com/?lang=es"><div class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i>
+													</div></a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12 col-sm-12">
+											<div class="link  popular">
+												<h3>Tiempo Libre</h3>
+												<iframe src="https://www.youtube.com/embed/3TQ1JyTGGP0" frameborder="0" allowfullscreen></iframe>
+												<!--Comentario sobre el video-->
+												<p>¿Amante del trekking?
+												Entonces amaras este video hecho en las torres del paine</p>
+												<div class="redes">
+													<a href="https://www.facebook.com/"><div class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>
+													</div></a>
+													<a href="https://twitter.com/?lang=es"><div class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i>
+													</div></a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12 col-sm-12">
+											<div class="link  popular">
+												<h3>Tiempo Libre</h3>
+												<iframe src="https://www.youtube.com/embed/3TQ1JyTGGP0" frameborder="0" allowfullscreen></iframe>
+												<!--Comentario sobre el video-->
+												<p>¿Amante del trekking?
+												Entonces amaras este video hecho en las torres del paine</p>
+												<div class="redes">
+													<a href="https://www.facebook.com/"><div class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>
+													</div></a>
+													<a href="https://twitter.com/?lang=es"><div class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i>
+													</div></a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12 col-sm-12">
+											<div class="link nuevo">
+												<h3>Tiempo Libre</h3>
+												<iframe src="https://www.youtube.com/embed/qPtKE9zdl7o" frameborder="0" allowfullscreen></iframe>
+												<p>Una versión de “All I Want” de Kodaline fue la elegida por la participante para salir al escenario de “The Voice Chile”. Alvaro López y Nicole fueron los artistas que debieron luchar por ella, pero Javiera decidió sumarse al Team Álvaro.</p>
+												<div class="redes">
+													<a href="https://www.facebook.com/"><div class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>
+													</div></a>
+													<a href="https://twitter.com/?lang=es"><div class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i>
+													</div></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--desde aqui se trabaja el lado derecho de la pagina-->
+					<div class="col-md-4 col-sm-12">
+						<div class="panel panel-default noticias">
+							<div class="panel-body">
+								<h4>Lo mas Nuevo</h4>
+								<hr>
+								<div class="row">
+									<div class="col-md-4 col-sm-4">
+										<img src="images/thevoice.png" alt="">
+									</div>
+									<div class="col-md-8 col-sm-8">
+										<p>Una versión de “All I Want” de Kodaline fue la elegida por la participante para salir al escenario de “The Voice Chile”.</p>
+										<a href=""><button class="btn-style">Leer Mas</button></a>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col-md-4 col-sm-4">
+										<img src="images/thevoice.png" alt="">
+									</div>
+									<div class="col-md-8 col-sm-8">
+										<p>Una versión de “All I Want” de Kodaline fue la elegida por la participante para salir al escenario de “The Voice Chile”.</p>
+										<a href=""><button class="btn-style">Leer Mas</button></a>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col-md-4 col-sm-4">
+										<img src="images/thevoice.png" alt="">
+									</div>
+									<div class="col-md-8 col-sm-8">
+										<p>Una versión de “All I Want” de Kodaline fue la elegida por la participante para salir al escenario de “The Voice Chile”.</p>
+										<a href=""><button class="btn-style">Leer Mas</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default noticias">
+							<div class="panel-body">
+								<h4>Lo mas Popular</h4>
+								<hr>
+								<div class="row">
+									<div class="col-md-4 col-sm-4">
+										<img src="images/twd.png" alt="">
+									</div>
+									<div class="col-md-8 col-sm-8">
+										<p>Se estrena trailer de the walking dead en la Comic con de san Diego. Revisalo aca.</p>
+										<a href=""><button class="btn-style">Leer Mas</button></a>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col-md-4 col-sm-4">
+										<img src="images/thevoice.png" alt="">
+									</div>
+									<div class="col-md-8 col-sm-8">
+										<p>Una versión de “All I Want” de Kodaline fue la elegida por la participante para salir al escenario de “The Voice Chile”.</p>
+										<a href=""><button class="btn-style">Leer Mas</button></a>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col-md-4 col-sm-4">
+										<img src="images/thevoice.png" alt="">
+									</div>
+									<div class="col-md-8 col-sm-8">
+										<p>Una versión de “All I Want” de Kodaline fue la elegida por la participante para salir al escenario de “The Voice Chile”.</p>
+										<a href=""><button class="btn-style">Leer Mas</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="footer-top">
+					<div class="row">
+						<div class="col-sm-2">
+							<img src="images/icono.png" alt="">
+						</div>
+						<div class="col-sm-2">
+							<h4>CORPORATIVO</h4>
+							<ul>
+								<li>
+									<a href="http://www.13.cl/corporativo/corporativo.htm">
+										Quiénes somos
+									</a>
+								</li>
+								<li>
+									<a href="http://www.13.cl/inversionistas/">
+										Inversionistas
+									</a>
+								</li>
+								<li>
+									<a href="http://www.13.cl/comercial/">
+										Area Comercial
+									</a>
+								</li>
+								<li>
+									<a href="http://www.13.cl/comercial/politicas-comerciales">
+										Políticas Comerciales
+									</a>
+								</li>
+								<li>
+									<a href="http://www.13.cl/proveedores/">
+										Proveedores 
+									</a>
+								</li>
+								<li>
+									<a href="http://www.13.cl/corporativo/corporativo_TrabajaConNosotros.htm">
+										Trabaja con Nosotros
+									</a>
+								</li>
+								<li>
+									<a href="http://www.13.cl/corporativo/mediciones_antenas.htm">
+										Mediciones Antenas
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-2">
+							<h4>AYUDA</h4>
+							<ul>
+								<li>
+									<a href="http://www.13.cl/formularios/contactate-con-canal-13">
+										Contactos
+									</a>
+								</li>
+								<li>
+									<a href="http://www.13.cl/faq.htm">Preguntas Frecuentes</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-2">
+							<h4>SERVICIOS</h4>
+							<a href="http://www.13.cl/concursos">
+								Bases Concursos
+							</a>
+						</div>
+						<div class="col-sm-2">
+							<h4>NUESTROS SITIOS</h4>
+							<a href="http://www.13.cl/programas">Programas</a>
+						</div>
+						<div class="col-sm-2">
+							<h4>SíGUENOS</h4>
+							<ul>
+								<li>
+									<a href="https://www.facebook.com/AlfombraRoja/">
+										<i class="fa fa-facebook" aria-hidden="true">
+										</i>
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/AlfombraRoja_13">
+										<i class="fa fa-twitter" aria-hidden="true">
+										</i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-medium">
+					<div class="row box">
+							<h5>
+								RED13.CL
+							</h5>
+						<div class="col-sm-1">
+							<a href="#">
+								<img src="images/logo-cl.png" alt="">
+							</a>
+						</div>	
+						<div class="col-sm-1">	
+							<a href="#">
+								<img src="images/logo-com.jpg" alt=""> <!-- logo 13 c -->
+							</a>
+						</div>	
+						<div class="col-sm-1">
+							<a href="#">
+								<img src="images/logo-play.jpg" alt=""><!-- logo 13 play -->
+							</a>
+						</div>	
+						<div class="col-sm-1">
+							<a href="#">
+								<img src="images/logo-sonar.png" alt="">
+							</a>
+						</div>	
+						<div class="col-sm-1">
+							<a href="#">
+								<img class="rebelde" src="images/logo-c.jpg" alt=""><!-- logo 13 x -->
+							</a>
+						</div>	
+						<div class="col-sm-1">
+							<a href="#">
+								<img src="images/logo-oasis.png" alt="">
+							</a>
+						</div>	
+						<div class="col-sm-1">
+							<a href="#">
+								<img src="images/logo-top.png" alt="">
+							</a>
+						</div>	
+						<div class="col-sm-1">
+							<a href="#">
+								<img src="images/logo-rec.png" alt="">
+							</a>	
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="row">
+						<div class="col-sm-8">
+							<p>
+								Inés Matte Urrejola 0848, Santiago, Chile - Fono (562) 2 251 4000. <br>
+								Todos los derehos reservados. 13.cl
+							</p>
+						</div>
+						<div class="col-sm-4">
+							<div class="contributor">
+								<a href="#">
+									<img src="images/icom.jpg" alt="">
+								</a>
+								<a href="#">
+									<img src="images/iab.jpg" alt="">
+								</a>
+								<a href="#">
+									<img src="images/icono-sur.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="js/main.js"></script>

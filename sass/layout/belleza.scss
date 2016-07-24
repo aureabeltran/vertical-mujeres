@@ -1,0 +1,67 @@
+*{
+	font-family: 'Playfair Display';
+}
+.right{
+	float:right;
+	margin-top:-20px;
+	color:$pink;
+}
+.pres-back-belleza{
+	background-color:$cl-belleza;
+	border-radius:20px;
+	height: 500px;
+	max-width: 100%;
+	padding: 20px;
+	.img-logo-belleza{
+		background-image: url(../images/logo-belleza.jpg);
+	    background-size: cover;
+	    max-width: 75%;
+	    height:480px;
+	    border-radius: 20px;
+	    text-align: center;
+	    padding: 20px;
+	}
+}
+.btn-style{
+	@include botones-simples(80%, $pink, 20px, 5px, 20px, 5px);
+}
+.items{
+	padding-top:20px;
+}
+#tendencias{
+	padding: 20px;
+}
+.descripcion-anuncio h4{
+	position: absolute;
+    right: -10px;
+    left: 15px;
+    bottom: -4px;
+    padding: 8px;
+    border-radius: 4px;
+    color: $cl-belleza;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    cursor:auto;
+    text-align: justify;
+    height: 50px;
+    width:80%;
+}
+h1{
+	color: $cl-belleza;
+	margin-bottom: 50px;
+	font-size: 70px;
+}
+.tipo-rostro{
+	border: 1px solid $gray;
+	text-align:center;
+	background-color:$cl-belleza;
+	border-radius:20px;
+	.justify{
+		text-align: justify;
+		color:white;
+	}
+}
+h3{
+   color: white;
+}
