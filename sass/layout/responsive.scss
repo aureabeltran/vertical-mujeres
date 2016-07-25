@@ -1,0 +1,135 @@
+
+@media (min-width: 385px) {
+.footer-top{
+img{
+height:100px;
+width: 100px;
+margin-left: 40%;
+
+}
+h4{
+margin-bottom: 0;
+font-size: 10px;
+margin-bottom: 2%;
+}
+ul{
+margin: 0;
+li{
+margin-bottom: 2%;
+}
+}
+}
+.footer-medium{
+a{
+img{
+width: 40px;
+}
+.rebelde{
+margin-right: 17%;
+    float:right;
+}
+}
+}
+}
+.datos{
+img{
+height: 100px;
+   width: 300px;
+   margin: 1%;
+   &:hover{
+    outline: 5px groove #FF4797;
+   }
+}
+}
+@media(min-width:440px){
+.footer-medium{
+a{
+img{
+width: 40px;
+}
+.rebelde{
+margin-right: 25%;
+    float: right;
+}
+}
+}
+}
+.datos{
+article{
+padding: 5%;
+background-color: #E6E6E6;
+img{
+height: 100px;
+   width: 100px;
+   margin: 1%;
+   &:hover{
+    outline: 5px groove #FF4797;
+   }
+}
+}
+}
+@media(min-width: 490px){
+.footer-medium{
+a{
+img{
+width: 40px;
+margin: 15%;
+}
+.rebelde{
+margin-right: 35%;
+    float: right;
+}
+}
+}
+}
+.datos{
+article{
+padding: 5%;
+background-color: #E6E6E6;
+img{
+height: 200px;
+   width: 320px;
+   margin: 1%;
+   &:hover{
+    outline: 8px groove #FF4797;
+   }
+}
+}
+}
+@media (min-width: 550px) {
+.footer-top{
+ul{
+padding: 0;
+li{
+margin-bottom: 2%;
+}
+}
+}
+}
+.datos{
+article{
+padding: 5%;
+background-color: #E6E6E6;
+img{
+height: 220px;
+   width: 450px;
+   margin: 1%;
+   &:hover{
+    outline: 8px groove #FF4797;
+   }
+}
+}
+}
+@media (min-width: 800px){
+h5{
+color:$cl-princ;
+}
+a{
+text-decoration: none;
+img{
+float:left;
+width: 80px;
+margin: 1%;
+}
+}
+}

@@ -1,23 +1,107 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
-.panoramas {
-  padding: 15px 15px;
-  margin: 15px 15px;
-  background-color: #E7E5D0; }
-  .panoramas #horizontal {
-    width: 10px; }
-  .panoramas img {
-    margin-left: 20px;
-    width: 250px;
-    height: 190px; }
-  .panoramas h1 {
-    color: #9CB84D;
-    text-align: left; }
-  .panoramas p {
-    text-align: left;
-    font-size: 15px; }
+@media (min-width: 385px) {
+  .footer-top img {
+    height: 100px;
+    width: 100px;
+    margin-left: 40%; }
+  .footer-top h4 {
+    margin-bottom: 0;
+    font-size: 10px;
+    margin-bottom: 2%; }
+  .footer-top ul {
+    margin: 0; }
+    .footer-top ul li {
+      margin-bottom: 2%; }
 
-.ftime-videos {
-  background-color: #E7E5D0; }
+  .footer-medium a img {
+    width: 40px; }
+  .footer-medium a .rebelde {
+    margin-right: 17%;
+    float: right; } }
+.datos img {
+  height: 100px;
+  width: 300px;
+  margin: 1%; }
+  .datos img:hover {
+    outline: 5px groove #FF4797; }
+
+@media (min-width: 440px) {
+  .footer-medium a img {
+    width: 40px; }
+  .footer-medium a .rebelde {
+    margin-right: 25%;
+    float: right; } }
+.datos article {
+  padding: 5%;
+  background-color: #E6E6E6; }
+  .datos article img {
+    height: 100px;
+    width: 100px;
+    margin: 1%; }
+    .datos article img:hover {
+      outline: 5px groove #FF4797; }
+
+@media (min-width: 490px) {
+  .footer-medium a img {
+    width: 40px;
+    margin: 15%; }
+  .footer-medium a .rebelde {
+    margin-right: 35%;
+    float: right; } }
+.datos article {
+  padding: 5%;
+  background-color: #E6E6E6; }
+  .datos article img {
+    height: 200px;
+    width: 320px;
+    margin: 1%; }
+    .datos article img:hover {
+      outline: 8px groove #FF4797; }
+
+@media (min-width: 550px) {
+  .footer-top ul {
+    padding: 0; }
+    .footer-top ul li {
+      margin-bottom: 2%; } }
+.datos article {
+  padding: 5%;
+  background-color: #E6E6E6; }
+  .datos article img {
+    height: 220px;
+    width: 450px;
+    margin: 1%; }
+    .datos article img:hover {
+      outline: 8px groove #FF4797; }
+
+@media (min-width: 800px) {
+  h5 {
+    color: #E51960; }
+
+  a {
+    text-decoration: none; }
+    a img {
+      float: left;
+      width: 80px;
+      margin: 1%; } }
+.panoramas {
+  width: 1200px; }
+  .panoramas article {
+    padding: 15px 15px;
+    margin: 15px 15px;
+    background-color: #9CB84D; }
+    .panoramas article figure img {
+      margin-left: 12%;
+      width: 77%; }
+    .panoramas article figure .after {
+      height: 231px; }
+    .panoramas article figure .spa {
+      height: 268px; }
+  .panoramas h1 {
+    color: #3F2D58;
+    font-size: 25px;
+    text-align: center; }
+  .panoramas p {
+    font-size: 15px; }
 
 /*icocnos redes sociales*/
 .facebook {
@@ -55,5 +139,22 @@
     font-size: 35px; }
 
 /*fin iconos*/
+.datos article {
+  padding: 5%;
+  background-color: #E6E6E6; }
+  .datos article img {
+    height: 200px;
+    width: 300px;
+    margin: 3%; }
+    .datos article img:hover {
+      outline: 12px groove #FF4797; }
+.datos a {
+  text-decoration: none; }
+  .datos a h5 {
+    color: #E51960;
+    margin: 2%; }
+.datos p {
+  color: black;
+  font-size: 11px; }
 
 /*# sourceMappingURL=main.css.map */

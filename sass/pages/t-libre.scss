@@ -1,27 +1,33 @@
 .panoramas{
-	padding: 15px 15px;;
-	margin: 15px 15px;;
-	background-color: #E7E5D0;
-	#horizontal {
-		width: 10px;
+width: 1200px;
+	article{
+			padding: 15px 15px;;
+			margin: 15px 15px;;
+			background-color: #9CB84D;
+		figure{
+			img {
+				margin-left: 12%;
+    			width: 77%;
+			}
+			.after{
+				height: 231px;
+			}
+			.spa{
+				height: 268px;
+			}
+		}
 	}
-	img {
-		margin-left: 20px;
-		width: 250px;
-		height: 190px;
-	}
+
 	h1 {
-		color: #9CB84D;
-		text-align: left;
+		color: #3F2D58;
+		font-size: 25px;
+		text-align: center;
 	}
 	p {
-		text-align: left;
 		font-size: 15px;
 	}
 }
-.ftime-videos {
-	background-color: #E7E5D0;
-}
+
 
 /*icocnos redes sociales*/
 .facebook{
@@ -64,3 +70,30 @@
 	}
 }
 /*fin iconos*/
+
+
+.datos{
+article{
+padding: 5%;
+background-color: #E6E6E6;
+img{
+height: 200px;
+   width: 300px;
+   margin: 3%;
+   &:hover{
+    outline: 12px groove #FF4797;
+   }
+}
+}
+a{
+text-decoration: none;
+h5{
+color:$cl-princ;
+margin: 2%;
+}
+}
+p{
+color:black;
+font-size: 11px;
+}
+}
