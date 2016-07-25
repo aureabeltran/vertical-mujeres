@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+.panoramas {
+  padding: 20px 20px;
+  margin: 20px 20px;
+  background-color: #E7E5D0; }
+  .panoramas #horizontal {
+    width: 10px; }
+  .panoramas img {
+    margin-left: 20px;
+    width: 250px;
+    height: 190px; }
+  .panoramas h1 {
+    color: #9CB84D;
+    text-align: left; }
+  .panoramas p {
+    text-align: left;
+    font-size: 15px; }
+
+/*icocnos redes sociales*/
+.facebook {
+  height: 50px;
+  width: 50px;
+  background-color: gainsboro;
+  transition: 0.5;
+  border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  border: 0px solid #000000;
+  display: inline-block; }
+  .facebook:hover {
+    background-color: #3B5998; }
+  .facebook i {
+    padding: 7px 14px;
+    color: white;
+    font-size: 35px; }
+
+.twitter {
+  height: 50px;
+  width: 50px;
+  background-color: gainsboro;
+  transition: 0.5;
+  border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  border: 0px solid #000000;
+  display: inline-block; }
+  .twitter:hover {
+    background-color: #4099FF; }
+  .twitter i {
+    padding: 7px 10px;
+    color: white;
+    font-size: 35px; }
+
+/*fin iconos*/
+
+/*# sourceMappingURL=main.css.map */

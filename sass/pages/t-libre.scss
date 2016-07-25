@@ -1,0 +1,64 @@
+.panoramas {
+	padding: 20px 20px;;
+	margin: 20px 20px;;
+	background-color: #E7E5D0;
+	#horizontal {
+		width: 10px;
+	}
+	img {
+		margin-left: 20px;
+		width: 250px;
+		height: 190px;
+	}
+	h1 {
+		color: #9CB84D;
+		text-align: left;
+	}
+	p {
+		text-align: left;
+		font-size: 15px;
+	}
+}
+
+/*icocnos redes sociales*/
+.facebook{
+	height: 50px;
+	width: 50px;
+	background-color:lighten($main-gray, 20%);
+	transition: 0.5;
+	border-radius: 25px 25px 25px 25px;
+	-moz-border-radius: 25px 25px 25px 25px;
+	-webkit-border-radius: 25px 25px 25px 25px;
+	border: 0px solid #000000;
+	display: inline-block;
+	&:hover{
+		background-color: $facebook;
+	}
+	i{
+		padding: 7px 14px;;
+		color: white;
+		font-size: 35px;
+	}
+}
+
+.twitter{
+	height: 50px;
+	width: 50px;
+	background-color:lighten($main-gray, 20%);
+	transition: 0.5;
+	border-radius: 25px 25px 25px 25px;
+	-moz-border-radius: 25px 25px 25px 25px;
+	-webkit-border-radius: 25px 25px 25px 25px;
+	border: 0px solid #000000;
+	display: inline-block;
+	&:hover{
+		background-color: $twitter;
+	}
+	i{
+		padding: 7px 10px;;
+		color: white;
+		font-size: 35px;
+	}
+}
+
+/*fin iconos*/
