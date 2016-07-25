@@ -109,3 +109,32 @@
 		}
 	}
 }
+.comentario{
+	input{
+		padding: 5px;
+		margin: 10px 0px;
+	}
+	textarea{
+		padding: 5px;
+		width: 100%;
+		height: 200px;
+	}
+	.chat-panel{
+		.chat{
+			border-radius: 10px;
+			margin: 10px 10px;
+			background-color: $pink;
+			width: 80%;
+			max-height: 400px;
+			color: white;
+			padding: 10px;
+			h3{
+				font-size: 25px;
+			}
+			p{
+				font-size:20px;
+				margin-left: 20px;
+			}
+		}
+	}
+}
