@@ -8,7 +8,11 @@
 	.navbar-header{
 		.navbar-toggle{
 			&:hover{
-				background-color: $pink; 
+				background-color: $pink;
+				color: white; 
+			}
+			&:focus{
+				background-color: $pink;
 			}
 		}
 		a{

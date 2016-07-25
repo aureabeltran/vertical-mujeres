@@ -1,4 +1,11 @@
 footer{
+	.icono{
+		margin-left: 93%;
+		font-size: 50px;
+		i{
+			color:$pink;
+		}
+	}
 	.footer-top , .footer-bottom{
 		border-top: 1px solid #B3B3B3;
 		.row{
