@@ -9,15 +9,16 @@
 .img-logo-panoramas{
 	background-image:url(../images/panoramas.jpg);
     background-size: 100% 100%;
-    max-width: 100%;
     height:380px;
     text-align: center;
     padding: 20px;
+    h1{
+    	color: black;
+    }
 }
 .img-logo-belleza{
 	background-image:url(../images/bg-belleza.jpg);
     background-size: 100% 100%;
-    max-width: 100%;
     height:380px;
     text-align: center;
     padding: 20px;
