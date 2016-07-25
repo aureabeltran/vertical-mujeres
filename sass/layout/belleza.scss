@@ -24,7 +24,7 @@
     padding: 20px;
 }
 .btn-style{
-	@include botones-simples(80%, $pink, 20px, 5px, 20px, 5px);
+	@include botones-simples(100%, $pink, 20px, 5px, 20px, 5px);
 }
 .items{
 	padding-top:20px;
